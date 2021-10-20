@@ -14,18 +14,18 @@
 </head>
 
 <body class="container-fluid">
-  <form name="jeepCodeForm" action="<?php echo base_url(); ?>parse-codes" onsubmit="return validateJeepCode()" method="POST">
+  <form id="form" name="jeepCodeForm" action="<?php echo base_url(); ?>parse-codes"  method="POST">
     <div class="row d-flex justify-content-center">
       <div class="col-4">
         <div class="form-group d-flex flex-column">
           <label for="jeepCodeInput" class="align-self-center">
             <h1 class="display-4 my-5">Jeep Code</h1>
           </label>
-          <input type="text" class="form-control mb-1" id="jeepCodeInput" aria-describedby="jeepCodeHelp" placeholder="Enter Jeep Code/s" value="" name="jeepCode" required>
-          <small id="jeepCodeHelp" class="form-text text-center mb-3">Error, invalid code format. Code example: 01B or 01B, 02B, 03B</small>
+          <input id="codes" type="text" class="form-control mb-1" id="jeepCodeInput" aria-describedby="jeepCodeHelp" placeholder="Enter Jeep Code/s" value="" name="jeepCode" required>
           <input type="submit" value="Submit" class="btn btn-primary mt-2">
         </div>
       </div>
+      <div id="error"></div>
     </div>
   </form>
 
@@ -42,7 +42,7 @@
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="./js/validators.js"></script>
+  <script src="<?php echo base_url(); ?>assets/js/validators.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 
