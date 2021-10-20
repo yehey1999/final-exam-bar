@@ -1,0 +1,8 @@
+#jeepCodeHelp {
+  display:none;
+}
+
+.error {
+  color: rgba(255, 0, 0, 0.534);
+  font-weight: bold;
+}

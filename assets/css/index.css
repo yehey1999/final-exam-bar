@@ -1,0 +1,113 @@
+body {
+	margin: 20px;
+	padding: 0;
+	background: #786E50 url(../images/pages/img1.gif);
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C3728;
+}
+
+.title {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+.title-h2 { 
+	font-size: 24px; 
+}
+
+.title-h3 { 
+	font-size: 18px; 
+	color: #786E50;
+}	
+
+.default-line-height { 
+	line-height: 20px;
+}
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.image {
+	margin: 5px 15px 0 0;
+	border: 4px solid #000000;
+}
+
+.byline {
+	background: #645B43;
+	font-size: 9px;
+}
+
+#header {
+	max-width: 592px;
+	height: 112px;
+	background: url(../images/pages/img2.jpg);
+	border: 4px solid #000000;
+}
+
+#header .title {
+	font-size: 36px;
+	color: #ACA283;
+}
+
+#header span {
+	bottom: -3px; 
+	right: 0; 
+	color: #ACA283; 
+	font-weight: bold; 
+	font-size: 10px; 
+}
+
+#nav {
+	max-width: 592px;	
+	background: #2a261c;
+}
+
+#nav .menu-items {
+	min-height: 32px;
+}
+
+#nav .menu-items li {
+	background: url(../images/img3.gif);
+}
+
+#nav .menu-items li a {
+	font-weight: bold;
+	color: #ACA283;
+}
+
+#nav .menu-items a:hover, #nav .menu-items .active a {
+	color: #FFFFFF;
+}
+
+#content {
+	max-width: 592px;
+	border: 4px solid #000000;
+}
+
+#side-content {
+	background: #3c3728;
+}
+
+#side-content a {
+	color: #ACA283;
+}
+
+#main-content {
+	background: #786e50;
+}
+
+#footer {
+	max-width: 592px;
+	background: #000000;
+}
+
+#footer p {
+	font-size: 9px;
+	color: #3C3728;
+}
